@@ -3,18 +3,19 @@ msgstr ""
 "Project-Id-Version: Event Organiser\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-23 17:23+0100\n"
-"PO-Revision-Date: 2015-04-06 19:10:22+0000\n"
-"Last-Translator: Etienne <etienne.bourrez@free.fr>\n"
+"PO-Revision-Date: 2015-07-10 12:58+0100\n"
+"Last-Translator: Florian TIAR <contact@tiar-florian.fr>\n"
 "Language-Team: \n"
-"Language: French (France)\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8\n"
 
 #: classes/class-eo-agenda-widget.php:11
 msgid "Displays a list of events, grouped by date"
-msgstr "Affiche une liste des événements, groupés par date"
+msgstr "Affiche une liste d'événements, regroupés par date"
 
 #: classes/class-eo-agenda-widget.php:19
 msgid "Events Agenda"
@@ -74,8 +75,7 @@ msgstr "Afficher les événements longs"
 
 #: classes/class-eo-calendar-widget.php:79
 msgid "Link directly to event for days with only one event"
-msgstr ""
-"Lien direct vers l'événement lors qu'il n'y a qu'un évènement par jour."
+msgstr "Lien direct vers l'événement lorsqu'il n'y a qu'un évènement par jour."
 
 #: classes/class-eo-calendar-widget.php:91
 #: classes/class-eo-event-list-widget.php:48
@@ -141,11 +141,11 @@ msgstr "Date de publication"
 
 #: classes/class-eo-event-list-widget.php:73
 msgid "ASC"
-msgstr "ASC"
+msgstr "CROISSANT"
 
 #: classes/class-eo-event-list-widget.php:74
 msgid "DESC"
-msgstr "DESC"
+msgstr "DECROISSANT"
 
 #: classes/class-eo-event-list-widget.php:82 event-organiser-settings.php:189
 msgid "Group occurrences"
@@ -172,11 +172,11 @@ msgstr ""
 
 #: classes/class-eo-event-list-widget.php:102
 msgid "'No events' message"
-msgstr "message 'No events'"
+msgstr "message 'Pas d'événements'"
 
 #: classes/class-eo-venue-list-table.php:75 templates/single-event.php:71
 msgid "Edit"
-msgstr "Editer"
+msgstr "Modifier"
 
 #: classes/class-eo-venue-list-table.php:80
 #: classes/class-eo-venue-list-table.php:142
@@ -322,7 +322,7 @@ msgstr "Chargement&#8230;"
 
 #: event-organiser-calendar.php:256
 msgid "Current date/time"
-msgstr "Date/heure courante"
+msgstr "Date/heure actuelle"
 
 #: event-organiser-calendar.php:261
 msgid "Create an event"
@@ -460,11 +460,11 @@ msgstr "Organisateur"
 
 #: event-organiser-edit.php:75
 msgid "This is a reoccurring event"
-msgstr "Cet événement se répète"
+msgstr "C'est un événement récurrent"
 
 #: event-organiser-edit.php:76
 msgid "Check to edit this event and its reoccurrences"
-msgstr "Cochez pour éditer cet événement et ses répétitions"
+msgstr "Cochez pour modifier cet événement et ses répétitions"
 
 #: event-organiser-edit.php:98
 #, php-format
@@ -498,7 +498,7 @@ msgstr "Répétition"
 
 #: event-organiser-edit.php:141
 msgid "none"
-msgstr ""
+msgstr "aucun"
 
 #: event-organiser-edit.php:141
 msgid "daily"
@@ -716,7 +716,7 @@ msgstr "Event Organiser"
 #: event-organiser-settings.php:46 event-organiser.php:111
 #: includes/event-organiser-install.php:112
 msgid "Edit Events"
-msgstr "Éditer des événements"
+msgstr "Modifier des événements"
 
 #: event-organiser-settings.php:47 event-organiser.php:112
 #: includes/event-organiser-install.php:113
@@ -731,7 +731,7 @@ msgstr "Effacer des événements"
 #: event-organiser-settings.php:49 event-organiser.php:114
 #: includes/event-organiser-install.php:115
 msgid "Edit Others' Events"
-msgstr "Éditer des événements d'autres personnes"
+msgstr "Modifier des événements d'autres personnes"
 
 #: event-organiser-settings.php:50 event-organiser.php:115
 #: includes/event-organiser-install.php:116
@@ -922,8 +922,8 @@ msgid ""
 "For more information see documentation <a href='%s'>on editing the "
 "templates</a>"
 msgstr ""
-"Pour plus d'information, voir la documentation <a href='%s'>pour éditer les "
-"templates"
+"Pour plus d'information, voir la documentation <a href='%s'>pour modifier "
+"les templates"
 
 #: event-organiser-settings.php:259
 msgid "Disable CSS:"
@@ -959,7 +959,7 @@ msgstr "Page des événements"
 
 #: event-organiser-settings.php:306
 msgid "Event (date archive)"
-msgstr ""
+msgstr "Evénement (archive par date)"
 
 #: event-organiser-settings.php:312
 msgid "Year archive"
@@ -1028,7 +1028,7 @@ msgstr "Vous n'avez pas les permissions nécessaires pour gérer les lieux"
 
 #: event-organiser-venues.php:54 event-organiser-venues.php:83
 msgid "You do not have permission to edit this venue."
-msgstr "Vous n'avez pas les permissions pour éditer ce lieu."
+msgstr "Vous n'avez pas les permissions pour modifier ce lieu."
 
 #: event-organiser-venues.php:61
 msgid "Venue <strong>was not</strong> updated"
@@ -1263,7 +1263,7 @@ msgstr "Cet événement se répète"
 
 #: includes/event-organiser-ajax.php:442 includes/event-organiser-cpt.php:221
 msgid "Edit Event"
-msgstr "Éditer un événement"
+msgstr "Modifier un événement"
 
 #: includes/event-organiser-ajax.php:462
 msgid "Delete this occurrence"
@@ -1297,7 +1297,7 @@ msgstr "Etes vous sûr de vouloir continuer ?"
 
 #: includes/event-organiser-ajax.php:835
 msgid "You do not have permission to edit this event"
-msgstr "Vous n'avez pas la permission d'éditer cet événement"
+msgstr "Vous n'avez pas la permission d'modifier cet événement"
 
 #: includes/event-organiser-ajax.php:857
 #, php-format
@@ -1379,7 +1379,7 @@ msgstr "Catégorie parente"
 
 #: includes/event-organiser-cpt.php:98
 msgid "Edit Category"
-msgstr "Éditer la catégorie"
+msgstr "Modifier la catégorie"
 
 #: includes/event-organiser-cpt.php:99
 msgid "Update Category"
@@ -1420,7 +1420,7 @@ msgstr "Mots-clefs populaires"
 
 #: includes/event-organiser-cpt.php:151
 msgid "Edit Tag"
-msgstr "Éditer le mot-clef"
+msgstr "Modifier le mot-clef"
 
 #: includes/event-organiser-cpt.php:152
 msgid "Update Tag"
@@ -1679,7 +1679,7 @@ msgid ""
 "Edit takes you to the editing screen for that venue. You can also reach that "
 "screen by clicking on the venue title."
 msgstr ""
-"Éditer vous dirige vers la page d'édition pour ce lieu. Vous pouvez "
+"Modifier vous dirige vers la page d'édition pour ce lieu. Vous pouvez "
 "également y accéder en cliquant sur le titre du lieu."
 
 #: includes/event-organiser-cpt.php:561
@@ -1787,7 +1787,7 @@ msgstr "une seule fois"
 
 #: includes/event-organiser-event-functions.php:760
 msgid "custom reoccurrence"
-msgstr "réoccurence personnalisée"
+msgstr "réccurence personnalisée"
 
 #: includes/event-organiser-event-functions.php:767
 #: includes/event-organiser-register.php:256
@@ -1896,7 +1896,7 @@ msgid ""
 "href='%s'>attempt to auto-fill them</a>. You can always manually change the "
 "details aftewards."
 msgstr ""
-"<h4>Champs Ville et Etat ajoutés</h4>les champs Ville et état/province pour "
+"<h4>Champs Ville et Etat ajoutés</h4>les champs Ville et état/région pour "
 "les lieux ont été ajoutés. </br> Si vous le souhaitez, Event Organiser peut "
 "<a href='%s'>essayer de les remplir automatiquement</a>. Vous pourrez "
 "toujours en changer les détails manuellement après."
@@ -1932,7 +1932,7 @@ msgstr "Ville"
 
 #: includes/event-organiser-venue-functions.php:975
 msgid "State / Province"
-msgstr "État / Province"
+msgstr "État / Région"
 
 #: includes/event-organiser-venue-functions.php:976
 msgid "Post Code"
